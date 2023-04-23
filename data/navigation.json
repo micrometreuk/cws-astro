@@ -1,0 +1,25 @@
+{
+  "logo": "/images/logo1.png",
+  "items": [
+    {
+      "link": "/",
+      "text": "Home"
+    },
+    {
+      "link": "/",
+      "text": "Features"
+    },
+    {
+      "link": "/",
+      "text": "Pricing"
+    },
+    {
+      "link": "/contact/",
+      "text": "Contact"
+    }
+  ],
+  "btn": {
+    "link": "tel:020-8665-4227<",
+    "text": "Contact us"
+  }
+}
