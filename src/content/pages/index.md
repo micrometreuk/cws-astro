@@ -42,4 +42,87 @@ content_blocks:
     title_suffix: Hosting
     description: Design and edit your digital presence your own way with a Content Management System. 
     remove_top_padding: true
+
+  - _bookshop_name: pricing/table
+    pricing_tier:
+      - tier: Starter
+        highlight_tier: false
+        description: Everything you need to get started.
+        currency_symbol: £
+        price: 39.99 per month
+        has_discount: false
+        discount_price: 0
+        features:
+          - item: 1 Custom Domain
+            active_feature: true
+          - item: 3 professional email addresses
+            active_feature: true
+          - item: Hosted on Virtual Private Server not Shared hosting
+            active_feature: true
+          - item: 60 GB Storage
+            active_feature: true
+          - item: 3 Gb Ram
+            active_feature: true
+          - item: SSL Certificate 
+            active_feature: true
+          - item: CDN (Content Delivery Network), which ensures security against DDOS (Denial Of Service) attacks
+            active_feature: false
+          - item: Support
+            active_feature: false
+      - tier: Pro
+        highlight_tier: true
+        description: More collaborative 
+        currency_symbol: $
+        price: 49.99 per month
+        has_discount: false
+        discount_price: 0
+        features:
+
+          - item: 1 Custom Domain
+            active_feature: true
+          - item: 1 Sub Domains
+            active_feature: true
+          - item: 5 professional email addresses
+            active_feature: true
+          - item: Hosted on Virtual Private Server not Shared hosting
+            active_feature: true
+          - item: 60 GB Storage
+            active_feature: true
+          - item: 3 Gb Ram
+            active_feature: true
+          - item: SSL Certificate 
+            active_feature: true
+          - item: CDN (Content Delivery Network), which ensures security against DDOS (Denial Of Service) attacks
+            active_feature: false
+          - item: Support
+            active_feature: false
+
+      - tier: Business
+        highlight_tier: false
+        description: For heavier work load
+        currency_symbol: $
+        price: 59.99 per month
+        has_discount: false
+        discount_price: 0
+        features:
+          - item: 1 Custom Domain
+            active_feature: true
+          - item: 3 Sub Domains
+            active_feature: true
+          - item: 5 professional email addresses
+            active_feature: true
+          - item: Scalable Virtual Private Server to handle a growing amount of your Business.
+            active_feature: true
+          - item: 2 Core Processor
+            active_feature: true
+          - item: 80 GB Storage
+            active_feature: true
+          - item: 4 Gb Ram
+            active_feature: true
+          - item: SSL Certificate 
+            active_feature: true
+          - item: CDN (Content Delivery Network), which ensures security against DDOS (Denial Of Service) attacks
+            active_feature: false
+          - item: Support
+            active_feature: false
 ---
