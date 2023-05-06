@@ -48,6 +48,7 @@ content_blocks:
       - tier: Starter
         highlight_tier: false
         description: Everything you need to get started.
+        remove_top_padding: true
         currency_symbol: £
         price: 39.99 per month
         has_discount: false
@@ -72,7 +73,7 @@ content_blocks:
       - tier: Pro
         highlight_tier: true
         description: More collaborative 
-        currency_symbol: $
+        currency_symbol: £
         price: 49.99 per month
         has_discount: false
         discount_price: 0
@@ -100,7 +101,7 @@ content_blocks:
       - tier: Business
         highlight_tier: false
         description: For heavier work load
-        currency_symbol: $
+        currency_symbol: £
         price: 59.99 per month
         has_discount: false
         discount_price: 0
