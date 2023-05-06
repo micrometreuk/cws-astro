@@ -17,10 +17,6 @@ content_blocks:
     button:
       text: Contact us today
       link: tel:020-8665-4227<
-  - _bookshop_name: pricing/hero
-    title: Design cloud infrastructure to host your applications and data
-    description: 
-      Online Quizes, Automatic Licence plate recognition, and other software designed to run in a browser but does not require an internet connection to operate. 
 
   - _bookshop_name: global/testimonial
     remove_top_padding: true
@@ -42,4 +38,14 @@ content_blocks:
         image_alt: Profile photo 
         message: >-
           Determine hosting requirements based on the applications usage criteria and deploy on the cloud or locally.
+
+
+
+  - _bookshop_name: global/header
+    title: "Managed "
+    title_suffix: Hosting
+    description: Design and edit your digital presence your own way with a Content Management System. 
+    remove_top_padding: false
+
+
 ---
