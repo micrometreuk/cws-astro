@@ -111,7 +111,7 @@ content_blocks:
             active_feature: true
           - item: 5 professional email addresses
             active_feature: true
-          - item: Scalable Virtual Private Server to handle a growing amount of your Business.
+          - item: Scalable Virtual Private Server to handle the growing traffic to your website.
             active_feature: true
           - item: 2 Core Processor
             active_feature: true
