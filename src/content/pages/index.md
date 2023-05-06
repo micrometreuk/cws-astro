@@ -12,19 +12,18 @@ seo:
 content_blocks:
   - _bookshop_name: home/hero
     title: App Development & Hosting Solutions
+    remove_top_padding: true
     description: >-
       From static sites to secure wordpress deployments, we can take care of your internet presence.
     button:
       text: Contact us today
       link: tel:020-8665-4227<
-
   - _bookshop_name: global/testimonial
     remove_top_padding: true
     title: Design cloud infrastructure to host your applications and data
     title_suffix: securly.
     description: >-
       Online Quizes, Automatic Licence plate recognition, and other software designed to run in a browser but does not require an internet connection to operate. 
-
     slider:
       - image: /images/blog/blog-thumb-1.jpg
         image_alt: Profile photo 
@@ -38,14 +37,9 @@ content_blocks:
         image_alt: Profile photo 
         message: >-
           Determine hosting requirements based on the applications usage criteria and deploy on the cloud or locally.
-
-
-
   - _bookshop_name: global/header
     title: "Managed "
     title_suffix: Hosting
     description: Design and edit your digital presence your own way with a Content Management System. 
-    remove_top_padding: false
-
-
+    remove_top_padding: true
 ---
