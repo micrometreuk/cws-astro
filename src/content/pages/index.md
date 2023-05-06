@@ -17,6 +17,11 @@ content_blocks:
     button:
       text: Contact us today
       link: tel:020-8665-4227<
+  - _bookshop_name: pricing/hero
+    title: Design cloud infrastructure to host your applications and data
+    description: 
+      Online Quizes, Automatic Licence plate recognition, and other software designed to run in a browser but does not require an internet connection to operate. 
+
   - _bookshop_name: global/testimonial
     remove_top_padding: true
     title: Design cloud infrastructure to host your applications and data

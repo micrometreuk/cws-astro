@@ -13,21 +13,6 @@ export default function Footer({}) {
                   {footer.copyright}
                 </p>
               </div>
-              <div className="social-icon">
-                <ul className="list-unstyled">
-                  {footer.social.map((link, i) => (
-                    <li key={i}>
-                      <a href={`${link.link}`}>
-                        <i className={link.icon} aria-hidden="true">
-                          <span className="visually-hidden">
-                            {link.icon_alt}
-                          </span>
-                        </i>
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
             </div>
 
             {footer.sections.map((section, i) => (

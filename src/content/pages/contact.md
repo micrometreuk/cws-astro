@@ -20,7 +20,7 @@ content_blocks:
       image_alt: call-add
     email:
       heading: Email
-      email: info@example.com
+      email: info@croydonwebservices.com
       image: /images/contact/directbox-send.svg
       image_alt: send-box
 ---
