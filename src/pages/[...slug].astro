@@ -25,6 +25,8 @@ if (!page.data.content_blocks) {
     `Tried to output page with unsupported schema: ${page.data._schema}`
   );
 }
+console.log(Astro.request.url) // GET (when navigated to in the browser)
+
 ---
 
 <PageLayout {...page.data} />

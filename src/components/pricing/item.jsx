@@ -45,7 +45,7 @@ export default function PricingTier({ tier, dataBinding }) {
       <div
         className={`card pricing-item ${tier.highlight_tier ? "active" : ""}`}
       >
-        <h5 className="card-title">{tier.tier}</h5>
+        <h2 className="card-title">{tier.tier}</h2>
         <p className="card-text">{tier.description}</p>
         {pricing}
         <div className="card-body">
