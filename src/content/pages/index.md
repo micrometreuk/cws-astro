@@ -56,9 +56,13 @@ content_blocks:
         features:
           - item: 1 Custom Domain
             active_feature: true
+          - item: 1 Sub Domain
+            active_feature: true
           - item: 3 professional email addresses
             active_feature: true
           - item: Hosted on Virtual Private Server not Shared hosting
+            active_feature: true
+          - item: 1 Core Processor
             active_feature: true
           - item: 60 GB Storage
             active_feature: true
@@ -81,11 +85,13 @@ content_blocks:
 
           - item: 1 Custom Domain
             active_feature: true
-          - item: 1 Sub Domains
+          - item: 1 Sub Domain
             active_feature: true
           - item: 5 professional email addresses
             active_feature: true
           - item: Hosted on Virtual Private Server not Shared hosting
+            active_feature: true
+          - item: 1 Core Processor
             active_feature: true
           - item: 60 GB Storage
             active_feature: true
@@ -112,7 +118,7 @@ content_blocks:
             active_feature: true
           - item: 5 professional email addresses
             active_feature: true
-          - item: Scalable Virtual Private Server to handle the growing traffic to your website.
+          - item: Scalable Virtual Private Server to handle the growing traffic.
             active_feature: true
           - item: 2 Core Processor
             active_feature: true

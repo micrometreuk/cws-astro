@@ -24,8 +24,6 @@ export default function HomeHero({ block, dataBinding }) {
 
         <div className="hero-two-shape"></div>
         <div className="container-fluid">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
               <div className="hero-two-content">
                 <h1 className="mb-4">{block.title}</h1>
                 <div
@@ -46,9 +44,6 @@ export default function HomeHero({ block, dataBinding }) {
                   )}
                 </div>
               </div>
-            </div>
-            <div className="col-lg-6"></div>
-          </div>
         </div>
       </section>
     </>
