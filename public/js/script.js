@@ -44,3 +44,5 @@ $(document).ready(function () {
       }
    });
 });
+
+console.log("testing scripts")
