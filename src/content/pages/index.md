@@ -18,6 +18,16 @@ content_blocks:
     button:
       text: Contact us today
       link: tel:020-8665-4227<
+  - _bookshop_name: global/faq
+    title: Built for your
+    remove_top_padding: true
+    title_suffix: Business
+    description: With over 30 years experience within various IT services including hardware, networking, software development, Dev Ops and more.
+    FAQ:
+      - title: Is there a maximum numbers of emails I can send each month?
+        description: No, the prices include unlimited emails. Send to your heart's content.
+
+
   - _bookshop_name: global/testimonial
     remove_top_padding: true
     title: Design cloud infrastructure to host your applications and data
@@ -132,4 +142,5 @@ content_blocks:
             active_feature: false
           - item: Support
             active_feature: false
+
 ---
