@@ -13,10 +13,10 @@ export default function HomeHero({ block, dataBinding }) {
         >
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img src="/images/carousel/carousel.jpg" className="img-fluid" alt="laptop " loading="eager"/>
+              <img src="/images/carousel/carousel.webp" className="img-fluid" alt="laptop " loading="eager"/>
             </div>
             <div className="carousel-item ">
-              <img src="/images/carousel/carousel3.jpg" className="img-fluid" alt="server " loading="eager" />
+              <img src="/images/carousel/carousel3.webp" className="img-fluid" alt="server " loading="eager" />
             </div>
           </div>
         </div>
