@@ -21,23 +21,12 @@
   }
 
   @include media-breakpoint-down-sm {
-    padding: $base-padding * 5.5 0 $base-padding * 5;
+    padding: $base-padding * 0.0 0 $base-padding * 0;
   }
 
-  &-shape {
-    -webkit-mask-image: url(/images/hero/hero-two-shape.png);
-    mask-image: url(/images/hero/hero-two-shape.png);
-    background: $color-background-effects;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    width: 384px;
-    height: 671px;
-  }
 
   &-content {
-    margin-top: 3rem;
+    margin-top: 0rem;
     padding-left: $base-padding * 18;
 
     @include media-breakpoint-down-xxxl {
@@ -54,11 +43,10 @@
     }
 
     @include media-breakpoint-down-md {
-      padding: 0 $base-padding * 3 $base-padding * 6;
+      padding: 0 $base-padding * 0 $base-padding * 1;
     }
 
     @include media-breakpoint-down-sm {
-      padding: 0 $base-padding * 0 $base-padding * 6;
     }
 
     h1 {
@@ -90,7 +78,6 @@
     text-align: right;
     max-width: 100%;
     margin-right: -13px;
-    padding-right: $base-padding * 18;
 
     @include media-breakpoint-down-xxxl {
       padding-right: initial;
@@ -101,9 +88,6 @@
     }
 
     &-shape {
-      -webkit-mask-image: url(/images/hero/hero-three-shape.png);
-      mask-image: url(/images/hero/hero-three-shape.png);
-      background: $color-background-effects;
       width: 904px;
       height: 1016px;
       position: absolute;
