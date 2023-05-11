@@ -1,0 +1,36 @@
+---
+import "../styles/theme.scss";
+import Footer from "@components/layouts/footer";
+import Navigation from "@components/layouts/navigation";
+---
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="/vendor/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="/vendor/phosphor-icons/css/phosphor.css" rel="stylesheet" />
+    <link href="/vendor/magnific-popup/magnific-popup.css" rel="stylesheet" />
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" href="/touch-icon.png" sizes="192x192" />
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
+    <meta name="generator" content={Astro.generator} />
+
+  </head>
+  <body>
+    <slot />
+    <Footer />
+
+    <script src="/vendor/jQuery/jquery.min.js" is:inline></script>
+    <script src="/vendor/bootstrap/bootstrap.bundle.min.js" is:inline></script>
+    <script src="/vendor/counter-up/countup.js" is:inline></script>
+    <script src="/vendor/magnific-popup/magnific-popup.min.js" is:inline
+    ></script>
+    <script src="/js/script.js" async></script>
+  </body>
+</html>
