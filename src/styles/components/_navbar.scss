@@ -35,7 +35,7 @@
 @include media-breakpoint-down-lg {
   .navbar {
     margin: $base-margin * 0;
-    padding: 1.5rem;
+    padding: 0.5rem;
     border-radius: 0;
     width: 100%;
     // width: calc(100% - 32px) !important;

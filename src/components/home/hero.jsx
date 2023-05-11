@@ -4,7 +4,7 @@ const md = new MarkdownIt({ html: true });
 export default function HomeHero({ block, dataBinding }) {
   return (
     <>
-      <section className="hero-two" data-cms-bind={dataBinding}>
+      <section className="hero-two pt-15" data-cms-bind={dataBinding} >
       <div>
         <div
           id="heroCarousel"
