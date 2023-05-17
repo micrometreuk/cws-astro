@@ -26,7 +26,13 @@ content_blocks:
     FAQ:
       - title: Is there a maximum numbers of emails I can send each month?
         description: No, the prices include unlimited emails. Send to your heart's content.
-
+  - _bookshop_name: global/feature
+    image: /images/feature/feature-card-two.png
+    image_alt: Upload box
+    title: Artificial Intelligence & Machine Learning
+    description: "
+    We provide the technology required to utilsie the latest developmennts in OpenSource AI ML, the desired tools can be installed on appropriat hardware and used locally, keeping your data within reach and out of sight to those outside your domain.
+    "
 
   - _bookshop_name: global/testimonial
     remove_top_padding: true
